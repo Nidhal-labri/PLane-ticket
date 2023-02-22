@@ -1,0 +1,39 @@
+body{
+    background-image: url(pic/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vb;
+}
+.container{
+    background-color: white;
+    padding: 20px;
+    width: 330px;
+    height: 360px;
+    border-radius: 10px;
+    text-align: center;
+}
+h1 ,p{
+    margin: 10px;
+}
+h1 {
+    color:#3390FF ;
+}
+.header ,.about {
+    display: flex;
+    justify-content: space-between;
+}
+.prsnlinfo {
+    text-align: left;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+.QRcode {
+    margin-top: 60px;
+}
